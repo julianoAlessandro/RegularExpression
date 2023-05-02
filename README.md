@@ -32,3 +32,13 @@ Expressões regulares tem o intuito de validar,  e procurar  uma informação de
     
   </ul>
   </p>
+  <hr>
+  <h3>Metacaracteres</h3>
+  são caracteres especias que indicam a ocorrencia de  numeross e letras no seu texto.
+  . -> qualquer caracter;<br>
+  \\d -> porcura digitos em um intervalo de 0 até 9;<br>
+  \\D -> procura por qualquer coisa que não seja um numero;<br>
+  \\s -> procura espaços e tabulações;<br>
+  \\S -> procura qualquer coisa que não seja espaço;<br>
+  \\w -> procura qualquer numero ou letra;<br>
+  \\W -> procura qualquer coisa diferente de letras e numeros.
