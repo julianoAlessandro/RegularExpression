@@ -1,12 +1,12 @@
-
+package aula61ate67;
 
 import java.util.Scanner;
 
 public class ValidarCPF {
 
 	public static void main(String[] args) {
-		System.out.println("========Validando informações do usuario================");
-		Scanner leia = new Scanner(System.in);
+	System.out.println("========Validando informações do usuario================");
+	Scanner leia = new Scanner(System.in);
 	System.out.println("Informe sua data de nascimento:");
 	String data = leia.nextLine();
 	System.out.println("Informe seu CPF:");
@@ -17,6 +17,8 @@ public class ValidarCPF {
 	String senha = leia.nextLine();
 	System.out.println("Informe sua idade:");
 	int idade = Integer.parseInt(leia.nextLine());
+	System.out.println("Informe seu email");
+	String email =leia.nextLine();
 	
 	
 	//======================VALIDAÇÃO DE DADOS================================\\
@@ -45,9 +47,29 @@ public class ValidarCPF {
 	else {
 		System.out.println("nome invalido");
 	}
-	boolean validaSenha = senha.matches("\\w{4,12}");
-	
+	boolean validaSenha = senha.matches("");
+	if(validaSenha == true) {
+		System.out.println("Dados da senha validado");
+	}
+	else {
+		System.out.println("Dados invalido");
+	}
+	boolean validaEmail = email.matches("\\w+@\\D{5}\\.\\D{3}.\\D{2}");
 
+	if(validaEmail == true) {
+		System.out.println("email validado com sucesso");
+		
+	}
+	else {
+		System.out.println("Email invalido");
+	}
+	if(idade > 18) {
+		System.out.println("Sistema liberado");
+	}
+	else {
+		System.out.println("Sistema invalido para uso");
+	}
+	
 	}
 
 	
