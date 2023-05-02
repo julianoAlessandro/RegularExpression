@@ -20,7 +20,7 @@ Expressões regulares tem o intuito de validar,  e procurar  uma informação de
   </p>
   
   <h3>Modificadorees</h3><br>
-  <h3>MODIFICADORES</H3>
+  <h3>MODIFICADORES</h3>
   <p>
     Servem para modificar uma determinada caracteristica especifica da função.
 
