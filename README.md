@@ -15,7 +15,7 @@ Expressões regulares tem o intuito de validar,  e procurar  uma informação de
 <p>
   São utilizados para  chamar uma  determinada  função que possui determinadas caracteristicas sem precisar escrever todo o  código que gera
   aquele comando, nesse projeto estou utilizando a função <strong>Matches<strong>.
-  <h3>MATCHES</H3>
+  <h3>MATCHES</h3>
  <p> São utilizados para fazer uma verificação baseado nos padroes de comparação podendo retornar True or false.</p>
   </p>
   
@@ -23,7 +23,11 @@ Expressões regulares tem o intuito de validar,  e procurar  uma informação de
   <p>
     Servem para modificar uma determinada caracteristica especifica da função.
   <h3>MODIFICADORES</H3>
-  (?i) -> ignoram letras maiusculas e minusculas<br>
-  (?x) -> comentarios<br>
-  (?m) -> multilinhas
+  <ul>
+    
+    <li>(?i) -> ignoram letras maiusculas e minusculas<br></li>
+  <li>(?x) -> comentarios<br></li>
+  <li>(?m) -> multilinhas</li>
+    
+  </ul>
   </p>
